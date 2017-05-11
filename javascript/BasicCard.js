@@ -1,5 +1,4 @@
- BasicCard = function (front, back) {
- 	 // exports.BasicCard = function BasicCard(front, back) {
+BasicCard = function (front, back) {
     if (this instanceof BasicCard) {
         this.front = front;
         this.back = back;
@@ -7,5 +6,4 @@
         return new BasicCard(front, back);
     }
 }
-
 module.exports = BasicCard;

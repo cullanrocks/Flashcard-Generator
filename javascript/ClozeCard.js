@@ -1,5 +1,4 @@
 ClozeCard = function (text, cloze) {
-	// exports.ClozeCard = function ClozeCard(text, cloze) {
     if (this instanceof ClozeCard) {
         this.text = text;
         this.cloze = cloze;
@@ -8,5 +7,4 @@ ClozeCard = function (text, cloze) {
     	return new ClozeCard(text, cloze);
     }
 }
-
 module.exports = ClozeCard;
