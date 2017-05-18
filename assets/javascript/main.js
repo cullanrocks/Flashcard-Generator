@@ -123,4 +123,4 @@ function nextQuestion() {
     }
 }
 
-gameStart()
+gameStart();
